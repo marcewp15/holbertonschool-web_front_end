@@ -1,6 +1,7 @@
+/* Create a Loop with the Headers */
 @for $i from 1 through 5
 {
-    H#{$i} {
-        font-size: 1px + $i
+        h#{$i} {
+        font-size: #{$i}px;
     }
 }
