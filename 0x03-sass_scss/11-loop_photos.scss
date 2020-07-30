@@ -1,3 +1,4 @@
+/* Assigns the background image based on the name */
 @import "11-photos.scss";
 @each $name in $list-names {
 .photo-#{$name}{
