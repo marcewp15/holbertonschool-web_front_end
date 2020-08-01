@@ -306,6 +306,11 @@ ul.row {
     padding: 0.5rem;
 }
 
+[class^="col-"] {
+    padding: 0.5rem;
+    float: left;
+}
+
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
