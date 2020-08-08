@@ -563,17 +563,22 @@
     /* Post
     ============================= */
 
-    .post img {
-      width: 100%;
-      height: auto;
-    }
-
     .post {
       display: flex;
     }
 
     .post-content {
       width: 100%;
+    }
+
+    .post-aside {
+      order: -1;
+      min-width: 20%;
+    }
+
+    .post img {
+      width: 100%;
+      height: auto;
     }
 
     .post-content p:first-child {
@@ -586,11 +591,6 @@
       font-size: var(--font-size-small);
       color: var(--color-grey);
       text-align: center;
-    }
-
-    .post-aside {
-      order: -1;
-      min-width: 20%;
     }
 
     /* Post Meta
