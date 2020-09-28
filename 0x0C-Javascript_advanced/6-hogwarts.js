@@ -4,7 +4,7 @@ function studentHogwarts() {
 
     function changeScoreBy(points) {
         privateScore += points;
-    }
+    };
 
     return {
         setName: function (newName) {
@@ -18,9 +18,9 @@ function studentHogwarts() {
         },
         getScore: function () {
             return (name + ": " + privateScore);
-        }
-    }
-}
+        },
+    };
+};
 
 let harry = new studentHogwarts();
 harry.setName("Harry");

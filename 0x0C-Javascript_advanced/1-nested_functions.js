@@ -7,9 +7,9 @@ function outer() {
         alert(globalVariable + " " + course);
         function inception() {
             alert(globalVariable + " " + course + exclamation);
-        }
+        };
         inception();
-    }
+    };
     inner();
-}
+};
 outer();

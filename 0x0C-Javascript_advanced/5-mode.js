@@ -5,8 +5,8 @@ function changeMode(size, weight, transform, background, color) {
         document.body.style.textTransform = transform;
         document.body.style.backgroundColor = background;
         document.body.style.color = color;
-    }
-}
+    };
+};
 function main() {
     const spooky = changeMode(9, "bold", "uppercase", "pink", "green");
     const darkMode = changeMode(12, "bold", "capitalize", "black", "white");
@@ -22,6 +22,6 @@ function main() {
     document.getElementById("Spooky").addEventListener ("click", spooky);
     document.getElementById("Dark-Mode").addEventListener ("click", darkMode);
     document.getElementById("Scream-Mode").addEventListener ("click", screamMode);
-}
+};
 main();
 
